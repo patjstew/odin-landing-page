@@ -117,3 +117,19 @@ a {
     font-size: 1rem;
     align-self: flex-end;
 }
+
+.sign-up-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px;
+    padding: 10px 40px;
+    background-color: #3882F6;
+    border-radius: .35rem;
+    color: white;
+}
+
+
+.call {
+    font-weight: bold;
+}

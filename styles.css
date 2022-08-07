@@ -70,6 +70,10 @@ a {
     box-shadow: 0 0 0 0;
 }
 
+.image-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 .image-container {
     display: flex;
     justify-content: space-around;
@@ -86,8 +90,30 @@ a {
     max-width: 100px;
 }
 
-
 .section-image {
     width: 100px;
     height: 75px;
+}
+
+.quote-section-container {
+    background-color: #E5E7EB;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 20vw;
+    font-size: 36px;
+    gap: 10px;
+}
+
+.quote {
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quoter {
+    font-weight: bold;
+    font-size: 1rem;
+    align-self: flex-end;
 }

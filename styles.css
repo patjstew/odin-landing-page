@@ -2,17 +2,20 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 .nav {
     display: flex;
     justify-content: space-between;
     color: white;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 5px;
 }
 
 .nav, .header-container {
     background-color: #1F2937;
-    color: white;
 }
 
 .header-logo {
@@ -22,6 +25,8 @@ body {
 ul {
     list-style: none;
     font-size: 18px;
+    display: flex;
+    gap: 15px;
 }
 
 a {
@@ -31,10 +36,27 @@ a {
 
 .header-container {
     display: flex;
-    padding: 20px 20px;
+    padding: 60px 80px;
+    color: #E5E7EB;
+}
+
+.header-content h1 {
+    color: white;
 }
 
 .header-image {
     width: 400px;
     height: 250px;
+}
+
+.button {
+    color: white;
+    background-color: #3882F6;
+    padding: .2rem 1rem;
+    border-radius: .5rem;
+    box-shadow: 0 0 3px 0 #3882F6;
+}
+
+.button:hover {
+    background-color: cornflowerblue;
 }

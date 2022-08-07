@@ -8,6 +8,7 @@ body {
 .nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     color: white;
     padding-left: 80px;
     padding-right: 80px;
@@ -38,6 +39,9 @@ a {
     display: flex;
     padding: 60px 80px;
     color: #E5E7EB;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;;
 }
 
 .header-content h1 {
@@ -59,4 +63,31 @@ a {
 
 .button:hover {
     background-color: cornflowerblue;
+}
+
+.footer-button {
+    border-color: white;
+    box-shadow: 0 0 0 0;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    gap: 20px;
+}
+
+.image-section h3 {
+    text-align: center;
+}
+
+.item {
+    max-width: 100px;
+}
+
+
+.section-image {
+    width: 100px;
+    height: 75px;
 }
